@@ -4,6 +4,25 @@ a {
 ul {
   list-style: none;
 }
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo .logo-sec-part {
+  color: #2e2f42;
+}
+
 .page-nav .link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -16,34 +35,10 @@ ul {
 .page-nav .link:focus {
   color: #404bbf;
 }
-body {
-  background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-}
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.logo-sec-part {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
-}
 .address {
   font-style: normal;
 }
 .address-details {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -58,7 +53,6 @@ body {
   background-color: #2e2f42;
 }
 .main-logo {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -67,7 +61,6 @@ body {
   color: #ffffff;
 }
 .main-button {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -125,6 +118,14 @@ body {
   text-align: center;
   color: #434455;
 }
+.portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 .portfolio-option {
   font-weight: 500;
   font-size: 20px;
@@ -151,12 +152,6 @@ body {
   color: #4d5ae5;
 }
 .logo-part {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
 .footer-dscr {
